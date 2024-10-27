@@ -1,0 +1,111 @@
+.main-text,.main-text p{
+    padding-left:0;
+    margin:0 auto;
+    text-align:center
+}
+.main-text{
+    position:absolute;
+    top:0;
+    width:100%;
+    color:#fff;
+    padding-top:220px
+}
+.main-text2 {
+margin-bottom:20px !important;
+}
+.main-text p{
+    font-family:DNFForgedBlade!important
+}
+.main-text1:after{
+    
+}
+.main-text .main-text2:after{
+   content: '';
+        display: inline-block;
+       width:859px;
+height:455px;
+        background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgypaHet4H_kvdby6xftfCTqe3cKIMHMNuj1wSwtoRknWLBkql2ay92Qxf3B1XZikPLC3Bk-DQ1b9Ryn3PeDpBhFDsI_2YucDlo_hc6UrPdnAHo6nOuuZuEzmmZAuahaRN_cJR_XaFQqwXoQyw1ljLUNJZcNNv5jE1-tRHzdlKtmvB7l8P4q_fc3C7lbA8/s16000/%EC%BD%94%EC%B9%B4%EB%A1%9C%EA%B3%A03.png);
+        background-size: cover;
+        animation: redGlowEffect 3s ease-in-out infinite;
+}
+
+@keyframes redGlowEffect {
+        0%, 100% {
+            box-shadow: 0 0 15px 5px rgba(255, 0, 0, 0.7); /* 밝은 빨간색 빛 */
+            filter: brightness(1);
+        }
+        50% {
+            box-shadow: 0 0 30px 15px rgba(255, 69, 0, 1); /* 더 강한 빨간빛 */
+            filter: brightness(1.5); /* 이미지 밝기 조정 */
+        }
+    }
+.main-date span{
+    background:rgba(18,18,18,0.4);
+    font-size:40px;
+    color:#fff;
+border:1px solid #0064ef;
+    word-break:keep-all;
+    word-wrap:break-word;
+    border-radius:10px;
+    
+    padding:10px 20px;
+    font-family:DNFForgedBlade!important;
+display:none;
+}
+.section-promotion{
+    top:0;
+}
+.section-promotion .section-promotion__list{
+    height:660px!important
+}
+
+.section-promotion .section-promotion__list li{
+top:-70px;
+}
+@media screen and (max-width:1024px){
+.section-promotion .section-promotion__list li{
+top:0;
+}
+    .main-text{
+        padding-top:30px !important;
+    }
+	.main-text1:after{
+	font-size:20px;	
+}
+.main-text2 {
+margin-bottom:0 !important;
+}
+    .main-text .main-text2:after{
+        font-size:50px;
+left: 80px;
+    position: absolute;
+zoom: 40%;
+
+    }
+
+.main-date {
+padding-top:120px
+}
+	.main-date span{
+font-size:15px;
+}
+    .section-promotion .section-promotion__list{
+        height:215px!important
+    }
+    .section-promotion{
+        top:0;
+        padding-top:40px !important;
+    }
+    #showsidebar1 img,#showsidebar2 img ,#showsidebar3 img{
+        height:100px!important
+    }
+	#showsidebar3{
+        bottom:36%!important
+    }
+    #showsidebar2{
+        bottom:22%!important
+    }
+    #showsidebar1{
+        bottom:8%!important
+    }
+}
